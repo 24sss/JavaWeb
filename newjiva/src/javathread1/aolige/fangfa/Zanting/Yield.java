@@ -35,7 +35,6 @@ public class Yield {
                 while(!leesin.isDead()){
 
                     Thread.yield();
-
                     bh.attack(leesin);
 
                 }

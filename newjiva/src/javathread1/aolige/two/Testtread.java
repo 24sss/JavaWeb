@@ -24,6 +24,7 @@ public class Testtread {
         leesin.hp = 455;
         leesin.damage = 80;
 
+
         Battle battle1=new Battle(gareen,teemo);
         new Thread(battle1).start();
 

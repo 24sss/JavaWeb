@@ -29,7 +29,6 @@ package javathread1.aolige.dan;
 public class Hero{
     public String name;
     public float hp;
-
     public int damage;
 
     public void attackHero(Hero h) {

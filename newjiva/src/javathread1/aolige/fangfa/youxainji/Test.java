@@ -43,9 +43,6 @@ public class Test {
         t2.setPriority(Thread.MIN_PRIORITY);
         t1.start();
         t2.start();
-
-
-
     }
 
 }

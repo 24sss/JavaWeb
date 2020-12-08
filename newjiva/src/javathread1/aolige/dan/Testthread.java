@@ -56,6 +56,7 @@ public class Testthread {
         trd1.start();
         KillTread trd2 = new KillTread(bh,leesin);
         trd2.start();
+
     }
 
 }
