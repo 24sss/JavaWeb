@@ -21,7 +21,7 @@ public class Test {
                 while(true){
                     garren.hurt();
                     try{
-                        Thread.sleep(1000);
+                        Thread.sleep(10);
                     }catch (InterruptedException e){
                         e.printStackTrace();
                     }
