@@ -8,7 +8,7 @@ import java.io.IOException;
 //但是，如果是写入数据到d:/xyz/lol2.txt，而目录xyz又不存在的话，就会抛出异常。
 //那么怎么自动创建xyz目录？
 //如果是多层目录 d:/xyz/abc/def/lol2.txt 呢？
-public class shuru1 {
+public class Duqu1 {
     public static void main(String[] args) {
         try {
             File f = new File("d:/xyz/abc/def/lol2.txt");
@@ -26,9 +26,9 @@ public class shuru1 {
 
             FileOutputStream fos = new FileOutputStream(f);
 
-                fos.write(data);
+            fos.write(data);
 
-                fos.close();
+            fos.close();
 
 
         } catch (IOException e) {
@@ -37,3 +37,4 @@ public class shuru1 {
 
     }
 }
+
